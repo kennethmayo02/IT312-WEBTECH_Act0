@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This webpage is about manhwa, manga, and manhua blog.">
+    <meta name="keywords" content="manhwa, manga, manhua, blog">
+    <title>K-Man</title>
+    <link rel="stylesheet" href="styles.css">
+    <!--Change the favicon.ico here, put a good image-->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+<body>
+    <header>
+        <img src="/utils/KMAN.gif" alt="K-Man" width="182" height="182">
+        <nav>
+            <ul>
+                <!--I think use the <input type="button>?"-->
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a href="#reviews">REVIEWS</a></li>
+                <li><a href="#news">NEWS</a></li>
+                <li><a href="#recommendation">RECOMMENDATION</a></li>
+                <li><a href="#ratings">RATINGS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr> <!--Horizontal Line-->
+
+    <section id="home">
+        <div class="home-container">
+            <article id="introduction">
+                <h2 id="name">HELLO, I AM KENNETH MAYO!</h2>
+
+                <p>
+                    Welcome to my little corner of fantasy and comfort. as a proud Filipino reader with an endless love
+                    for Manhwa, Manga, and Manhua, i created this website to share my passion with fellow fans across
+                    the world. for me, reading isn't just a hobby—it's a sanctuary, a place where stories lift me away
+                    from life's worries and immerse me in worlds of adventure, emotion, and wonder. here, you'll find
+                    heartfelt recommendations, personal reflections, and curated picks meant to guide and inspire
+                    readers who, like me, find comfort between the panels of every chapter. this space is more than just
+                    a blog—it's a home for anyone who wishes to celebrate the beauty of storytelling through manhwa and
+                    manga.
+                </p>
+
+                <h4>Explore my gallery and dive into my world!</h4>
+
+                <button id="galleyBtn">Check Gallery →</button>
+            </article>
+
+            <img src="/utils/orv intro_cover.jpg" alt="ORV Introduction Cover" width="501" height="668">
+        </div>
+    </section>
+
+    <main>
+        <section id="gallery">
+            <h2>GALLERY</h2>
+            <a id="viewBtn" href="#view-gallery">View All →</a>
+
+            <!--TODO: change the href into more specific to each manga/manhwa-->
+            <!--TODO: You might change the initial size of each cover to suit the scale of the webpage-->
+            <div class="card">
+                <article>
+                    <img src="/utils/orv cover.jpg" alt="Ominiscient Reader's Viewpoint Cover" width="300" height="420">
+                    <h4>OMNISCIENT READER'S VIEWPOINT COVER</h4>
+                    <a class="learnBtn" href="#learnMore">Learn More →</a>
+                </article>
+
+                <article>
+                    <img src="/utils/sl cover.jpg" alt="Solo Leveling Cover" width="300" height="420">
+                    <h4>SOLO LEVELING</h4>
+                    <a class="learnBtn" href="#learnMore">Learn More →</a>
+                </article>
+                
+                <article>
+                    <img src="/utils/baskerville cover.jpg" alt="Revenge of Iron Blooded Sword Hound" width="300" height="420">
+                    <h4>RENVEGE OF IRON-BLOODED SWORD HOUND</h4>
+                    <a class="learnBtn" href="#learnMore">Learn More →</a>
+                </article>
+
+                <article>
+                    <img src="/utils/one piece cover.jpg" alt="One Piece Cover" width="300" height="420">
+                    <h4>ONE PIECE</h4>
+                    <a class="learnBtn" href="#learnMore">Learn More →</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="ratings">
+            <img src="/utils/grey bg 2.jpg" alt="Outer Background" width="1440" height="703">
+            <img src="/utils/one piece bg.jpg" alt="Inner Background">
+            <h2>MOST POPULAR</h2>
+            <button id="checkItBtn">Check it out →</button>
+        </section>
+    </main>
+</body>
+
+</html>
